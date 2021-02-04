@@ -57,6 +57,7 @@ public class Test02 {
                     e.printStackTrace();
                 }
             }
+            // 唤醒t1，否则t1无法结束
             lock.notify();
             System.out.println("t2 结束");
         }
