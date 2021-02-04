@@ -1,0 +1,35 @@
+##maven compile
+**/target/
+**/venv/
+
+##python_env
+**/venv/
+
+##eclipse files
+.classpath
+.project
+.settings/
+*.prefs
+*.component
+
+##idea files
+*.iml
+*.ipr
+*.iws
+/.idea/
+
+##mac files
+.DS_Store
+
+##bak files
+*.bak
+*.log
+##other
+CATALINA_BASE_IS_UNDEFINED
+/target
+*.zip
+
+*.mwb
+
+##jrebel
+rebel.xml
